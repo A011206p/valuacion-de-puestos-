@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Evaluación de Puestos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido al Sistema de Evaluación de Puestos</h1>
+        <nav>
+            <ul>
+                <li><a href="#descripcion">Descripción de Puestos</a></li>
+                <li><a href="#evaluacion">Evaluación de Puestos</a></li>
+                <li><a href="#estructura-salarial">Estructura Salarial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="descripcion">
+        <h2>Descripción de Puestos</h2>
+        <p>A continuación, te mostramos una lista de los puestos clave dentro de la organización y sus descripciones.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Puesto</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gerente de Marketing</td>
+                    <td>Responsable de la estrategia de marketing, publicidad y comunicación.</td>
+                </tr>
+                <tr>
+                    <td>Desarrollador Web</td>
+                    <td>Encargado del diseño y mantenimiento de la página web de la empresa.</td>
+                </tr>
+                <!-- Agregar más puestos según sea necesario -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="evaluacion">
+        <h2>Evaluación de Puestos</h2>
+        <p>Los puestos son evaluados con base en los siguientes criterios objetivos:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Puesto</th>
+                    <th>Responsabilidad (0-20)</th>
+                    <th>Experiencia (0-20)</th>
+                    <th>Educación (0-10)</th>
+                    <th>Impacto (0-30)</th>
+                    <th>Toma de Decisiones (0-20)</th>
+                    <th>Total (0-100)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gerente de Marketing</td>
+                    <td>18</td>
+                    <td>16</td>
+                    <td>8</td>
+                    <td>28</td>
+                    <td>18</td>
+                    <td>88</td>
+                </tr>
+                <tr>
+                    <td>Desarrollador Web</td>
+                    <td>12</td>
+                    <td>14</td>
+                    <td>6</td>
+                    <td>22</td>
+                    <td>14</td>
+                    <td>68</td>
+                </tr>
+                <!-- Agregar más filas de evaluación según sea necesario -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="estructura-salarial">
+        <h2>Estructura Salarial</h2>
+        <p>En base al puntaje total de evaluación, se asignan rangos salariales como se muestra a continuación:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Puntos Totales</th>
+                    <th>Rango Salarial</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0-40 puntos</td>
+                    <td>$20,000 - $30,000</td>
+                </tr>
+                <tr>
+                    <td>41-80 puntos</td>
+                    <td>$30,000 - $45,000</td>
+                </tr>
+                <tr>
+                    <td>81-120 puntos</td>
+                    <td>$45,000 - $60,000</td>
+                </tr>
+                <tr>
+                    <td>121-160 puntos</td>
+                    <td>$60,000 - $80,000</td>
+                </tr>
+                <tr>
+                    <td>161-200 puntos</td>
+                    <td>$80,000 - $100,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sistema de Evaluación de Puestos</p>
+    </footer>
+</body>
+</html>
